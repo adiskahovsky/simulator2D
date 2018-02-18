@@ -20,6 +20,7 @@ public class StartMenu extends JFrame{
 		setSize(xSize, ySize);
 		setLocationRelativeTo(null);
 		setResizable(false);
+		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setVisible(true);
 		initCompanents();
 		action();
